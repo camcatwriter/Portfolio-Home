@@ -30,14 +30,14 @@
       font-weight: bold;
       font-size: 1.5rem;
       text-align: center;
-      color: #333;
+      color: lightslategray;
     }
   figcaption:hover {
-      color: yellow;
+      color: lightskyblue;
     }
     
     #navbar {
-      background-color: #878787;
+      background-color: lightgray;
       justify-content: flex-end;
       display: flex;
       position: fixed;
@@ -53,16 +53,16 @@
       nav ul li a{
         font-size: 1.25rem;
         font-weight: 700;
-        color: #333
+        color: lightslategray;
       }
   
       nav ul li a:hover {
-        color: yellow;
+        color: lightskyblue;
       }
       
       #title {
-        background-color: #333;
-        color: yellow;
+        background-color: lightslategray;
+        color: lightskyblue;
         min-height: 10vh;
         padding-top: 16vh;
         text-align: center;
@@ -71,7 +71,7 @@
       }
   
   #projects {
-    background-color: #767676;
+    background-color: lightgray;
   }
   
   .project-tiles {
@@ -82,7 +82,7 @@
   }
   
   #contact {
-  background-color: #333;
+  background-color: lightslategray;
   display: flex;
   flex-direction: column;
   }
@@ -92,21 +92,21 @@
     font-weight: bold;
     margin: 35px 35px 35px 35px;
     list-style-type: none;
-    border: 2px solid #767676;
+    border: 2px solid lightgray;
     border-radius: 100%;
     width: 100px;
     height: 100px;
     line-height: 100px;
-    background: #9f9f9f;
-    color: #000;
+    background: lightgray;
+    color: lightslategray;
     text-decoration: none;
     text-align: center;
     font-size: 1.25rem;
   }
   
   .contact-details:hover {
-    background: #222;
-    color: yellow;
+    background: lightslategray;
+    color: lightskyblue;
   }
   
   @media only screen and (max-width: 500px) {
@@ -122,7 +122,7 @@
       min-height:1100px;
     } */
     .contact-details {
-      border: 2px solid #90C695;
+      border: 2px solid lightskyblue;
       border-radius: 0;
       width: 90px;
       height: 20px;
@@ -133,9 +133,9 @@
   
   footer {
     text-align: center;
-    background-color: #878787;
+    background-color: lightgray;
     padding: 10px;
     font-size: 1.5 rem;
     font-weight: 700;
-    color: #333
+    color: lightslategray
   }
